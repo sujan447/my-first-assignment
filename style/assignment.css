@@ -15,6 +15,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 150px;
+    font-family: "Azeret Mono";
 }
 .nav-text{
     font-weight: 800;
@@ -55,6 +56,8 @@ justify-content: center;
 align-items: center;
 padding: 0px;
 width: 998px;
+text-align: center;
+font-family: "Azeret Mono";
 }
 
 .banner-title{
@@ -78,6 +81,7 @@ margin-top: 10px;
 .banner-profile-pic{
     width: 240px;
     height: 228.9px;
+    margin-top: 20px;
     
 }
 .btn-primary-cotact{
@@ -88,8 +92,156 @@ font-size: 20px;
 font-weight: 600;
 padding: 21px 24px;
 border-radius: 8px;
-margin-bottom: 10px;
+margin-bottom: 20px;
 
 
 }
 /* banner style end here */
+
+/* main section style start here */
+
+.why-web{
+    max-width: 946px;
+height: 1235px;
+border: 2px solid red;
+/* margin-top: 100px; */
+border-radius: 16px;
+background-color: white;
+margin: 50px auto;
+padding: 0 50px;
+text-align: center;
+font-family: "Azeret Mono";
+
+
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 800px;
+    margin-top: 70px;
+    
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 400px;
+    
+}
+.content{
+    max-width: 950px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    font-family: "Azeret Mono";
+}
+.leftside-content{
+    width: 50%;
+    /* display: flex; */
+
+   
+}
+.leftside-title{
+    font-weight: 700px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-family: "Azeret Mono";
+
+}
+.leftside-p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0;
+    text-align: left;
+    margin-top: 20px;
+    font-family: "Azeret Mono";
+}
+.btn-learn{
+   border: 1px solid black; 
+   font-size: 20px;
+   font-weight: 400;
+   width: 170px;
+   height:45px ;
+   text-align: center;
+   margin-top: 50px;
+   font-family: "Azeret Mono";
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+   
+}
+.rightside-content{
+    /* width: 50%; */
+}
+
+.content1{
+    max-width: 950px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+    
+}
+.leftside-content1{
+    width: 30%;
+}
+.rightside-content1{
+    width: 60%;
+}
+.rightside-title1{
+    font-weight: 700px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    
+
+}
+.rightside-p{
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content2{
+    max-width: 950px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-top: 50px;
+}
+.leftside-content2{
+   width: 30%; 
+}
+.rightside-content2{
+    width: 60%;
+}
+.lestside-title2{
+    font-weight: 700px;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.leftside-p2{
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+/* main section style end here */
