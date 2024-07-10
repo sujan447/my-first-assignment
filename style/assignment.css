@@ -347,3 +347,54 @@ main section{
     background: rgba(255, 223, 0, 0.05);
 }
 /* my current target style here */
+
+/* i need support style start here */
+ .image{
+    background-image: url(/B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 313px;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    
+}
+.support-p{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    color: white;
+}
+.support-box{
+    display: flex;
+    gap: 10px;
+}
+.placeholder{
+    width: 550px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 1px solid gba(13, 19, 33, 0.15); 
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
+.submit{
+    width: 120px;
+    height: 55px;
+    border: 1px solid gba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
