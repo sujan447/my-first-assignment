@@ -39,7 +39,7 @@ nav{
     /* border: 2px solid red; */
     margin: 0 auto;
     padding: 0;
-    background-image: url("/assets/hero.png");
+    background-image: url("../assets/hero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
