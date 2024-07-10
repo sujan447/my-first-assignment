@@ -36,7 +36,7 @@ nav{
 .banner{
     /* width: 1440px;
     min-height: 652px; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     padding: 0;
     background-image: url("/B10A1-Challenge-Begins/assets/Hero-bg.png");
@@ -103,7 +103,7 @@ margin-bottom: 20px;
 .why-web{
     max-width: 946px;
 height: 1235px;
-border: 2px solid red;
+/* border: 2px solid red; */
 /* margin-top: 100px; */
 border-radius: 16px;
 background-color: white;
@@ -111,6 +111,7 @@ margin: 50px auto;
 padding: 0 50px;
 text-align: center;
 font-family: "Azeret Mono";
+
 
 
 }
@@ -127,7 +128,7 @@ font-family: "Azeret Mono";
 }
 .content{
     max-width: 950px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -182,7 +183,7 @@ padding: 12px 20px 12px 20px;
 
 .content1{
     max-width: 950px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -216,7 +217,7 @@ padding: 12px 20px 12px 20px;
 
 .content2{
     max-width: 950px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -242,6 +243,42 @@ padding: 12px 20px 12px 20px;
     font-weight: 400px;
     margin: 0;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 20px; 
+    
 }
 /* main section style end here */
+
+
+/* my inspiration style start here */
+
+.inspiration{
+    max-width: 950px;
+    height: 500px; 
+    border: 2px solid red; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+    
+
+}
+.inspiration-title{
+    font-size: 35px;
+    font-weight: 800px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Azeret Mono"; 
+    
+}
+.inspiration-p{
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    font-family: "Azeret Mono";
+    margin-bottom: 50px;
+}
+
+
+
+/* my inspiration style end here */
