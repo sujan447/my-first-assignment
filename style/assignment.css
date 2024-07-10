@@ -259,6 +259,7 @@ padding: 12px 20px 12px 20px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
     /* margin: 0 auto;  */
     
     
@@ -406,9 +407,11 @@ main section{
     /* border: 2px solid red; */
     background: rgba(13, 19, 33, 0.03);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
+    padding: 50px;
 
 }
 #footer-p{
@@ -416,5 +419,11 @@ main section{
     font-weight: 600;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
+}
+.rightside-footer{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 0 auto; */
 }
  /* footer style end here */
